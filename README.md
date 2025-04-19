@@ -1,4 +1,6 @@
-# Scanning serverless code with Snyk and NPM Audit
+# Assignment 3.6
+
+Scanning serverless code with Snyk and NPM Audit
 
 ## What is package vulnerability scan?
 
@@ -56,7 +58,8 @@ Also note that since npm audit fix runs a full-fledged npm install under the hoo
 ## Register for Snyk account
 1. Sign up for a Snyk account - https://snyk.io/
 2. Once logged in, you can see an overview of linked projects e.g. Github repositories that you import in the Dashboard.
-<img width="1440" alt="Screenshot 2023-11-25 at 12 19 45 AM" src="https://github.com/luqmannnn/serverless-package-scan/assets/9068525/7f1a9968-f8d6-44bc-adfa-0c82cf1600b2">
+![image](https://github.com/user-attachments/assets/717dd744-dca3-4a26-88f1-f40eb61c8089)
+
 3. Get your AP token by going to the bottom left (your name) > account settings > click to show key under Auth Token > copy token > create a Github Actions Secret in your Github repository called "SNYK_TOKEN"
 
 ## Write your lambda function
